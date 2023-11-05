@@ -1,0 +1,46 @@
+ .topnav{
+    display: flex;
+    background-color:rgb(80, 180, 210);
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    width:100%;
+    justify-content: space-between;
+ }
+
+.navLeft{
+   display: flex;
+   width: 50%;
+ 
+}
+
+.navLeftElem {
+    list-style-type: none;
+    font-weight: 400;
+    text-decoration: none ;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.decorationLogo{
+   text-decoration: none ;
+   border-radius: 5px ;
+   font-size: 20px ;
+   font-weight: 600;
+
+}
+.decorationLogo >img {
+   width: 70px;
+   height: 70px;
+}
+
+.decoration{
+   text-decoration: none ;
+   cursor: pointer;
+   
+}
+
+.navRightElem{
+   color: black;
+   font-weight: bolder;
+}
